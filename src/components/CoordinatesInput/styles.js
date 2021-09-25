@@ -8,12 +8,10 @@ export const Container = styled.div`
     height: 22px;
     padding: 1.5%;
     background-color: #a1b2bf;
-    
 
-    p {
+    label {
         color: black;
         background-color: #a1b2bf;
-
 
     }
 
@@ -21,5 +19,4 @@ export const Container = styled.div`
         background-color: white;
         font-size: 25px;
     }
-   
 `;

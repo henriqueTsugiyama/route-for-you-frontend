@@ -10,7 +10,9 @@ export const MainContainer = styled.div`
     font-size: calc(10px + 2vmin);
     color: white;
 
-    
+    p {
+        margin-top: 20px;
+    }
 `;
 
 export const HeaderContainer = styled.div`
@@ -23,6 +25,7 @@ export const HeaderContainer = styled.div`
     h1 {
         margin-bottom: 10px;
     }
+  
 `;
 
 export const InputModal = styled.div`
@@ -31,7 +34,7 @@ export const InputModal = styled.div`
     align-items: center;
     background-color: #a1b2bf;
     min-height: 15vh;
-    max-width: 70vw;
+    max-width: 80vw;
     min-width: 60vw;
     padding: 2%;
 
@@ -75,7 +78,7 @@ export const Calculate = styled.button`
     padding: 9px;
     margin-top: 2%;
     border-radius: 8px;
-    background-color: #99e8c2;
+    background-color: #2a74b0;
     border: none;
     transition: background-color 500ms;
     font-size: 25px;

@@ -5,9 +5,9 @@ import { Container } from "./styles";
 export const CoordinatesInput = ({props}) => {
     return ( 
         <Container>
-            <p>{props.coordinates[0]}</p>
+            <label>{props.coordinates[0]}</label>
             <input ></input>
-            <p>{props.coordinates[1]}</p>
+            <label>{props.coordinates[1]}</label>
 
             <input ></input>
 
